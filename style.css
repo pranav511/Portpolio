@@ -52,6 +52,20 @@ main hr{
 .leftSection{
     font-size: 3rem;
 }
+.leftSection .buttons{
+    padding: 50px 0;
+}
+.leftSection .buttons .btn{
+    background-color: rgb(75, 29, 125);
+    color: white;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    
+
+}
 .rightSection img{
     width: 80%;
 }
@@ -65,4 +79,65 @@ main hr{
 .secondSection{
     max-width: 80vw;
     margin: auto;
+    height: 80vh;
+}
+.secondSection h1{
+    font-size: 1.9rem;
+    /* height: 80vh; */
+}
+.text-grey{
+    color: grey;
+}
+.secondSection .box{
+    background-color: white;
+    width:80vw ;
+    height: 2px;
+    margin:56px 0;
+    display: flex;
+}
+.secondSection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    padding:0.1px;
+    margin: 0 110px;
+}
+.image-top{
+    width:30px;
+    position: relative;
+    top:-32px;
+    left:-10px;
+}
+.vertical-title{
+    position: relative;
+    top:75px;
+    width:150px;
+}
+.vertical-desc{
+    position: relative;
+    top: 86px;
+    color:grey;
+    width:150px;
+    font-size:10px;
+}
+footer{
+    background-color: #0e0e1a;
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 223px;
+}
+.footer ul{
+    list-style: none;
+}
+.footer >div{
+    width:223px;
+}
+footer .footer-rights{
+    text-align: center;
+    color: grey;
+    padding:12px 0;
 }
